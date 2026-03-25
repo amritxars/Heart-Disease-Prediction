@@ -1,0 +1,27 @@
+{
+  "threshold": 0.54,
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "age_thalach",
+    "oldpeak_slope",
+    "cp_exang",
+    "chol_age",
+    "hr_reserve"
+  ],
+  "model": "GradientBoostingClassifier",
+  "accuracy": 0.8641,
+  "roc_auc": 0.9121,
+  "recall_disease": 0.8725
+}
